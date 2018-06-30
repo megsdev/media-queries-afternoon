@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Slab','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #1F2125
+}
+
+nav div {
+    color: #FECA30;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+    font-size: 20px;
+}
+
+.menu {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #FECA30;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    display: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.fa-bars {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image-container {
+    background: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+.image-container .container .welcome-text {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+button {
+    background-color: #FECA30;
+    border-color: #FECA30;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding: 20px 30px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.services .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
+    color: #616A76;
+}
+
+h2 {
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+.services-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.fas {
+    color: white;
+    background-color: #FECA30;
+    border-radius: 50%;
+    padding: 35px;
+}
+
+.portfolio {
+    background-color: #F7F8F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* if the width is at least 900px, apply these styles */
+@media (min-width: 900px) {
+    .menu {
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    .services .container {
+        flex-direction: row;
+
+    }
+}
